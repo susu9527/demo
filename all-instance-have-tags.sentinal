@@ -1,5 +1,4 @@
 //import "tfplan"
-
 main = rule {
     all tfplan.resource.alicloud_vpc as _, vpcs {
         all vpcs as _, r {
